@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icons8-Windows-8-Cinema-Batman-New.ico" type="image/x-icon">
+    <title> Midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua  o tamanho do seu navegador</p>
+    
+    <picture>
+        <source media="(max-width: 730px)" srcset="midias/imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1030px )" srcset="midias/imagens/medio.png" type="image/png">
+        <img src="midias/imagens/grande.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Aprendendo a reproduzir audio</p>
+    <audio preload="metadata" controls autoplay><!--podemos usar só o src porém talvez não funcione em todos os navegadores-->
+        <source src="midias/audio/K a m a i t a c h i - Chalé em Alaska (Prod.E4GL3).mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador não consegue reproduzir esse audio. <a href="youtube.com/watch?v=A_BLO50bRig">clique aqui para escutar em outra plataforma</a></p>
+    </audio><!--temos alguns outros tipos de midias diferentes como ogg e wav-->
+
+    <h1>Inserindo videos</h1><!--no meu priprio servidor-->
+    <video src="midias/videos/D75258dc-2D5a10cc-1.mkv" width="500px" height="315" controls source poster="midias/imagens/poster-cavalo.png" autoplay loop><!--esse método consume muito trafego de dados-->
+    </video><!--é recomendado colocar diferentes plataformas de reprodução e uma mensagem de aviso final -->
+
+    <h1>Inserindo video externo</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/LJZoJUj7w-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!--usando esse modo você não consome seu trafego de dados e sim dos externos-->
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: "lady";
+    src: url(LoveLadyPersonalUse.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h1{
+    font-family: 'lady';
+}
