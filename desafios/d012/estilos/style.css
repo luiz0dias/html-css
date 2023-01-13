@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 20px;
+    font-family: 'Passion One', cursive;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px
+    
+    
+}
+
+header > span {
+    font-size: 70px;
+}
+
+nav {
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+
+.normal {
+    background-color: white;
+    margin: 20px 50px 20px 0px;
+    padding: 15px;
+
+}
+
+.person01 {
+    background-color: black;
+    background-image: url(../imagens/background001.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    padding: 10px 0px 10px 15px;
+    margin: 0px;
+}
+
+.person02 {
+    background-color: black;
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    padding: 10px 0px 10px 15px;
+    margin: 20px;
+}
