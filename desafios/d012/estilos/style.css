@@ -83,8 +83,9 @@ section > p {
     background-image: url(../imagens/background001.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center right;
     background-attachment: fixed;
+    box-shadow: inset 1px 1px 13px 0 rgba(0, 0, 0, 0.596);
     color: white;
 }
 
@@ -95,6 +96,7 @@ section > p {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    box-shadow: inset 1px 1px 13px 0 rgba(0, 0, 0, 0.596);
     color: white;
 }
 
