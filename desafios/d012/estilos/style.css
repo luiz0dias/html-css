@@ -61,7 +61,7 @@ section {
 }
 
 section > p {
-    padding-bottom: 3em;
+    padding-bottom: 2em;
 }
 
 .normal {
@@ -75,6 +75,7 @@ section > p {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.452);
     display: inline-block;
     padding: 5px;
+    font-size: 3.5vw;
 }
 
 .person#img01 {
