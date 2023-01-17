@@ -2,67 +2,105 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+:root {
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: 'Passion One', cursive;
+    --font03: 'Sriracha', cursive;
+}
+
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font01);
+}
+
 header {
-    font-size: 20px;
-    font-family: 'Passion One', cursive;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px
-    
     
 }
 
-header > span {
-    font-size: 70px;
+header > h1 {
+    padding-top: 50px;
+    font-family: var(--font02);
+    font-size: 10vw;
+    font-variant: small-caps;
 }
 
-nav {
-    padding: 10px;
-    margin: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-nav a {
-    font-weight: bold;
-    text-decoration: none;
+header > p {
     color: white;
-    padding: 5px;
+    padding-bottom: 50px;
 }
 
+a {
+    font-weight: bold;
+   text-decoration: none; 
+   color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vh;
+    line-height: 2em;
+    font-family: var(--font03);
+    font-size: 2vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
 
 .normal {
     background-color: white;
-    margin: 20px 50px 20px 0px;
-    padding: 15px;
-
+    
 }
 
-.person01 {
+
+.person > p {
+    background-color: rgba(0, 0, 0, 0.658);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.452);
+    display: inline-block;
+    padding: 5px;
+}
+
+.person#img01 {
     background-color: black;
     background-image: url(../imagens/background001.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
     color: white;
-    padding: 10px 0px 10px 15px;
-    margin: 0px;
 }
 
-.person02 {
+.person#img02 {
     background-color: black;
     background-image: url(../imagens/background002.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
     color: white;
-    padding: 10px 0px 10px 15px;
-    margin: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
 }
